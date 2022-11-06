@@ -92,7 +92,7 @@ end
 
 function library.new(library, name)
   for _, v in next, services.CoreGui:GetChildren() do
-    if v.Name == "Classified" then
+    if v.Name == "frosty is cute" then
       v:Destroy()
     end
   end
@@ -112,7 +112,7 @@ function library.new(library, name)
 
   if syn and syn.protect_gui then syn.protect_gui(dogent) end
 
-  dogent.Name = "Classified"
+  dogent.Name = "frosty is cute"
   dogent.Parent = services.CoreGui
   
   function UiDestroy()
